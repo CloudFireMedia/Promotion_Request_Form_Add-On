@@ -1,5 +1,5 @@
 var SCRIPT_NAME = "Promotion_Request_Form_AddOn"
-var SCRIPT_VERSION = "v1.1.5"
+var SCRIPT_VERSION = "v1.2"
 
 // Add-on installation
 
@@ -11,9 +11,6 @@ function onInstall(e) {
 // Menu
 
 function onOpen(e) {
-
-  console.log(SCRIPT_VERSION)
-  console.log(e)
 
   var menu = FormApp.getUi().createAddonMenu()
   
